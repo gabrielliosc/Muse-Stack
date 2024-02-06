@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+:root {
+    --background-black: #242424;
+    --background-card: #2D2C35;
+    --background-button: #fff;
+    --background-header: #ffffff1a;
+
+    --gradient-background: linear-gradient(180deg, 0% #97003B, 50% var(--background-black), 100% #3300BB);
+    --gradient-section: linear-gradient(127.4deg, #F72585 -2.62%, #480FCB 104.88%);
+
+    --pink-detail:#F72585;
+    --purple-detail: #480FCB;
+
+    --font-color: #ECEDEE;
+    --font-color-secondary: #000;
+    --font-color-gray: #646464;
+
+    --font-family-title: 'Dela Gothic One', sans-serif;
+    --font-family-content:  'Montserrat', sans-serif;
+
+    --font-size: 62,5%
+}
