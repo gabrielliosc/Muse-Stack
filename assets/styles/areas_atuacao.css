@@ -1,0 +1,130 @@
+section.areas_atuacao {
+    display: grid;
+    grid-template-areas:
+    'coluna_1 coluna_2 coluna_3 coluna_4'
+    'botao botao botao botao';
+    align-items: center;
+    font-family: var(--font-family-content);
+    background-image: url('../img/areas-atuacao.png');
+    background-repeat: no-repeat;
+    min-height: 40rem;
+}
+.areas_atuacao .areas_atuacao__titulo h2{
+    font-size: 3rem;
+    font-family: var(--font-family-title);
+    line-height: 4rem;
+    color: var(--neutral-white);
+    text-transform: uppercase;
+    padding-top: 5rem;
+    margin-bottom: 8rem;
+    max-width: 32rem;
+}
+.areas_atuacao h2 span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--neutral-white);
+}
+
+.areas_atuacao .coluna_grid {
+    text-align: center;
+}
+.areas_atuacao .coluna_1 .areas, .areas_atuacao .coluna_2 .areas{
+    background: var(--gradient-black-200);
+}
+.areas_atuacao .coluna_3 .areas, .areas_atuacao .coluna_4 .areas{
+    background: var(--gradient-black-20);
+}
+.coluna_1 {
+    grid-area: coluna_1;
+}
+.coluna_2 {
+    grid-area: coluna_2;
+}
+.coluna_3 {
+    grid-area: coluna_3;
+}
+.coluna_4 {
+    grid-area: coluna_4;
+}
+.areas_atuacao .areas{
+    position: relative;
+    border-radius: 50%;
+    backdrop-filter: blur(.5rem);
+    color: var(--neutral-white);
+    margin: 0 auto;
+}
+.areas_atuacao .areas span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: block;
+    max-width: 10rem;
+    text-transform: uppercase;
+}
+.extra_grande {
+    aspect-ratio: 1;
+    width: 25vw;
+}
+.grande {
+    aspect-ratio: 1;
+    width: 17vw;
+}
+.medio {
+    aspect-ratio: 1;
+    width: 14vw;
+}
+.pequeno {
+    aspect-ratio: 1;
+    width: 10vw;
+}
+.desenvolvimento_lideranca {
+    left: 2rem;
+    font-size: 1.5rem;
+}
+.areas_atuacao .desenvolvimento_lideranca span{
+    max-width: 20rem;
+}
+.cloud {
+    top: 5rem;
+    right: 5rem;
+    font-size: 1.1rem;
+}
+.data_science{
+    top: 4rem;
+    right: 5rem;
+    font-size: 1.5rem;
+}
+.cybersecurity{
+    top: 6rem;
+    right: 5.5rem;
+    font-size: 1.25rem;
+}
+.areas_atuacao .cybersecurity span{
+    max-width: 15rem;
+}
+.ux_ui {
+    top: 6.5rem;
+    right: 8.5rem;
+    font-size: 1.3rem;
+}
+.front_back {
+    top: 10rem;
+    right: 8.5rem;
+    font-size: 1.6rem;
+}
+.areas_atuacao .quiz{
+    grid-area: botao;
+    text-align: center;
+    padding: 2.5rem;
+}
+.areas_atuacao .botao{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-family-title);
+    font-size: .9rem;
+    color: var(--neutral-dark);
+    background-color: var(--neutral-white);
+    border-radius: 28px;
+    padding: .5rem 1rem;
+}
