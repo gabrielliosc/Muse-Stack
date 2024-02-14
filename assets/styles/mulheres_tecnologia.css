@@ -58,7 +58,7 @@ section.primeiro .estatisticas div {
     flex-direction: column;
 }
 section.primeiro .estatisticas div:last-child {
-    padding-left: 5.25rem;
+    padding-left: 4rem;
 }
 section.primeiro .estatisticas .valor{
     font-size: 6rem;
@@ -74,7 +74,7 @@ section.primeiro .estatisticas .label{
     color: var(--neutral-grey);
 }
 section.primeiro .retangulo{
-    height: 43rem;
+    height: 75vh;
     background-color: var(--neutral-white);
     width: 21rem;
     position: absolute;
@@ -82,8 +82,10 @@ section.primeiro .retangulo{
     z-index: -1;
 }
 .faixa{
-    margin-top: -4rem;
+    position: absolute;
+    margin-top: -5rem;
     height: 10rem;
     width: 100%;
     background-image: url('../img/faixa.svg');
+    z-index: 99;
 }
