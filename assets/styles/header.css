@@ -31,7 +31,8 @@ header{
 }
 .titulo{
     width: auto;
-    background-color: var(--background-header);
+    background: var(--gradient-black);
+    background-color: var(--pure-white-transparency);
     backdrop-filter: blur(1rem);
     padding: 5rem 7rem;
 }
