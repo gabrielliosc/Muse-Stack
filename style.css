@@ -1,6 +1,7 @@
 @import './assets/styles/reset.css';
 @import './assets/styles/header.css';
 @import './assets/styles/mulheres_tecnologia.css';
+@import './assets/styles/areas_atuacao.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
@@ -9,6 +10,7 @@
 :root {
     --neutral-white: #ECEDEE;
     --neutral-pure-white: #FFFFFF;
+    --pure-white-transparency: #ffffff1a;
     
     --neutral-dark: #1C1D1E;
     --neutral-dark-purple: #2D2C35;
@@ -20,8 +22,12 @@
     --secondary: #F72585;
 
     --gradient: linear-gradient(127.4deg, #F72585 -2.62%, #480FCB 104.88%);
-    --background-header: #ffffff1a;
-    --gradient-background: linear-gradient(180deg, 0% #97003B, 50% var(--neutral-dark), 100% #3300BB);
+
+    --gradient-black-200: linear-gradient(200deg, #ffffff14 0%, #00000000 100%);
+    --gradient-black-180: linear-gradient(180deg, #00000026 0%, #00000000 100%); /*to do: Ver opacidade do gradiente*/
+    --gradient-black-20: linear-gradient(20deg, #ffffff14 0%, #00000000 100%);
+
+    --gradient-comunidade: linear-gradient(180deg, #97003B 0%,var(--neutral-dark) 50%, #3300BB 100%);
 
     --font-family-title: 'Dela Gothic One', sans-serif;
     --font-family-content:  'Montserrat', sans-serif;
