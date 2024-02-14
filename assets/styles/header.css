@@ -1,0 +1,63 @@
+header{
+    background-image: url('../img/header-background.png');
+    background-repeat: no-repeat;
+    min-height: 40rem;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+.topo .logo{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family-title);
+    gap: .8rem;
+    color: var(--font-color);
+}
+.topo .botao{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-family-title);
+    font-size: .9rem;
+    color: var(--font-color-secondary);
+    background-color: var(--background-button);
+    border-radius: 28px;
+    padding: .5rem 1rem;
+}
+.titulo{
+    width: auto;
+    background-color: var(--background-header);
+    backdrop-filter: blur(1rem);
+    padding: 5rem 7rem;
+}
+.titulo h1{
+    font-size: 8.5rem;
+    font-family: var(--font-family-title);
+    color: var(--font-color);
+    text-transform: uppercase;
+}
+.titulo h1 span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.titulo .descricao{
+    font-family: var(--font-family-content);
+    color: var(--font-color);
+    max-width: 30rem;
+    margin-top: 3rem;
+}
+.continue{  
+    display: flex;
+    align-items: center;
+    color: var(--font-color);
+    font-family: var(--font-family-content);
+    gap: .8rem;
+    align-self: center;
+    margin-bottom: 2rem;
+}
