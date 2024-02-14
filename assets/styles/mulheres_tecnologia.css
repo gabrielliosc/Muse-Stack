@@ -1,0 +1,89 @@
+section.primeiro {
+    display: flex;
+    font-family: var(--font-family-content);
+}
+section.primeiro .topicos {
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: 6.8rem;
+    margin-bottom: 4rem;
+}
+.topicos h2{
+    font-size: 3rem;
+    font-family: var(--font-family-title);
+    line-height: 4rem;
+    color: var(--neutral-dark);
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+.topicos h2 span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--neutral-dark);
+}
+.topicos .topico{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.25rem;
+    color: var(--neutral-grey);
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--neutral-white);
+}
+.topicos .topico:last-child{
+    border: none;
+}
+.topicos .topico img{
+    width: 18px;
+    height: 27px;
+}
+section.primeiro .estatisticas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
+    padding-left: 3.2rem;
+    min-width: 33rem;
+    width: 50%;
+    margin-top: 6rem;
+    margin-right: 6.75rem;
+    margin-bottom: 2rem;
+    border: 10px solid;
+    border-image-slice: 1 1 0 0;
+    border-image-source: var(--gradient);
+}
+section.primeiro .estatisticas div {
+    display: flex;
+    flex-direction: column;
+}
+section.primeiro .estatisticas div:last-child {
+    padding-left: 5.25rem;
+}
+section.primeiro .estatisticas .valor{
+    font-size: 6rem;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 7.3rem;
+    color: var(--primary);
+}
+section.primeiro .estatisticas .label{
+    font-size: .9rem;
+    font-weight: 400;
+    max-width: 230px;
+    color: var(--neutral-grey);
+}
+section.primeiro .retangulo{
+    height: 43rem;
+    background-color: var(--neutral-white);
+    width: 21rem;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.faixa{
+    margin-top: -4rem;
+    height: 10rem;
+    width: 100%;
+    background-image: url('../img/faixa.svg');
+}
