@@ -1,0 +1,54 @@
+.carta_aberta .carta_aberta__logo{
+    position: relative;
+    top: 9rem;
+    left: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family-title);
+    background-color: var(--neutral-dark);
+    box-shadow: 8px -7px 0px 0px var(--secondary);
+    width: 465px;
+    height: 95px;
+    font-size: 1.6rem;
+    gap: .8rem;
+    color: var(--neutral-white);
+}
+.carta_aberta .carta_aberta__conteudo{
+    display: flex;
+    margin: 6rem;
+    gap: 4rem;
+    background-color: var(--neutral-grey-light);
+    padding: 6.4rem;
+    border: 10px solid;
+    border-image-slice: 0 1 1 0;
+    border-image-source: var(--gradient);
+    border-left: none;
+    border-top: none;
+}
+.carta_aberta h2{
+    font-size: 3rem;
+    font-family: var(--font-family-title);
+    line-height: 4rem;
+    color: var(--neutral-dark);
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+.carta_aberta .carta_aberta__conteudo h2 span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--neutral-dark);
+}
+.carta_aberta .carta_aberta__conteudo span#conteudo{
+    margin-top: 10rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.carta_aberta .carta_aberta__conteudo p{
+    margin-bottom: 1.5rem;
+}
+.carta_aberta .carta_aberta__imagem{
+    position: relative;
+    bottom: 45rem;
+    left: 3rem;
+}
