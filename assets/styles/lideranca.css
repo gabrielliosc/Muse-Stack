@@ -35,16 +35,16 @@
     border-image-source: var(--gradient);
     border-left: none;
 }
-.swiper {
+.lideranca .swiper {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
 }
-.swiper-slide {
+.lideranca .swiper-slide {
     background: transparent;
     padding-bottom: 10px;
 }
-.swiper-slide .flip-container img {
+.lideranca .swiper-slide .flip-container img {
     display: block;
     width: 100%;
     height: 100%;
