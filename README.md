@@ -85,7 +85,7 @@ Will be listed here the finished protoype demo | Será inserido aqui uma demo do
 - [x] Header
 - [x] Women in tech | Mulheres na tecnologia
 - [x] Tech fields | Áreas de atuação
-- [ ] Historical women | Mulheres históricas
+- [x] Historical women | Mulheres históricas
 - [ ] Open letter | Carta aberta
 - [ ] Our team | Nosso time
 - [ ] Footer
