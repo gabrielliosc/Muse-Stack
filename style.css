@@ -2,9 +2,14 @@
 @import './assets/styles/header.css';
 @import './assets/styles/mulheres_tecnologia.css';
 @import './assets/styles/areas_atuacao.css';
+@import './assets/styles/lideranca.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
 
 
 :root {
@@ -14,6 +19,7 @@
     
     --neutral-dark: #1C1D1E;
     --neutral-dark-purple: #2D2C35;
+    --pure-black-transparency: #00000033;
     
     --neutral-grey-dark: #646464;
     --neutral-grey-light: #F4F4F4;
@@ -33,5 +39,7 @@
     --font-family-content:  'Montserrat', sans-serif;
     --font-size: 62,5%;
 }
+
+
 
 
