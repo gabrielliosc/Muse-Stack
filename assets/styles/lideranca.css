@@ -1,0 +1,179 @@
+.lideranca{
+    display: flex;
+    background-image: url(../img/lideranca.png);
+    min-height: 40rem;
+    padding-left: 6.8rem;
+    flex-direction: column
+}
+.lideranca h2{
+    font-size: 3rem;
+    font-family: var(--font-family-title);
+    line-height: 4rem;
+    color: var(--neutral-dark);
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    width: 35%;
+}
+.lideranca h2 span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--neutral-dark);
+}
+.lideranca .lideranca__cabecalho{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 3rem;
+    margin-right: 6.8rem;
+}
+.lideranca .border{
+    height: 10vh;
+    width: 55%;
+    margin-top: 3rem;
+    border: 10px solid;
+    border-image-slice: 1 1 0 0;
+    border-image-source: var(--gradient);
+    border-left: none;
+}
+.swiper {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.swiper-slide {
+    background: transparent;
+    padding-bottom: 10px;
+}
+.swiper-slide .flip-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.flip-container {
+    display: inline-block;
+    width: 340px;
+    height: 555px;
+    perspective: 1000px; 
+}
+.flipper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.lideranca input[type='checkbox']{
+    display: none;
+}
+
+.lideranca input[type='checkbox']:checked ~ .flip-container .flipper {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 340px;
+    height: 555px;
+    backface-visibility: hidden;
+}
+.front:hover, .back:hover{
+    box-shadow: 0px 8px 10px 0px #bdbdbd;
+}
+.front::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 340px;
+    height: 555px;
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.front{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-repeat: round;
+    overflow: hidden;
+}
+.ada::before{
+    background-image: url('../img/ada-lovelace.png');
+    
+}
+.mary::before{
+    background-image: url('../img/mary-kenneth-keller.png');
+}
+.grace::before{
+    background-image: url('../img/grace-hopper.png');
+}
+.carol::before{
+    background-image: url('../img/carol-shaw.jpg');
+}
+.hedy::before{
+    background-image: url('../img/hedy.png');
+}
+.front.mary span.nome{
+    padding: 18px 53px;
+}
+.front span.nome{
+    background-color: var(--pure-black-transparency);
+    color: var(--neutral-white);
+    font-family: var(--font-family-title);
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    height: 105px;
+    padding: 35px 53px;
+    line-height: 34.75px;
+}
+.front span.historia{
+    align-self: end;
+    margin: 1rem;
+    background-color: var(--primary);
+    color: var(--neutral-white);
+    font-family: var(--font-family-content);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+.back {
+    background-color: var(--neutral-dark);
+    color: var(--neutral-white);
+    font-family: var(--font-family-content);
+    font-size: 24px;
+    font-weight: 400;
+    transform: rotateY(180deg);
+    padding: 48px 24px;
+    border-radius: 16px;
+    line-height: 29px;
+}
+.back span{
+    text-align: left;
+}
+.back strong{
+    font-weight: 700;
+}
+.veja-mais{
+    display: flex;
+    align-items: center;
+    color: var(--neutral-grey-dark);
+    font-family: var(--font-family-content);
+    gap: .8rem;
+    align-self: flex-end;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 6.8rem;
+    cursor: pointer;
+}
+.veja-mais:hover{
+    color: var(--secondary);
+    font-weight: 600;
+}
