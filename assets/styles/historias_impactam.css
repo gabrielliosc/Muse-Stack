@@ -1,0 +1,83 @@
+.historias_impactam{
+    display: flex;
+    background-image: url(../img/historias-impactam.jpg);
+    min-height: 40rem;
+    padding-left: 6.8rem;
+    flex-direction: column
+}
+.historias_impactam h2{
+    font-size: 3rem;
+    font-family: var(--font-family-title);
+    line-height: 4rem;
+    color: var(--neutral-white);
+    text-transform: uppercase;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-width: 50rem;
+}
+.historias_impactam h2 span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--neutral-white);
+}
+.historias_impactam .swiper {
+    font-family: var(--font-family-content);
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.historias_impactam .swiper-slide {
+    background: transparent;
+    padding-bottom: 10px;
+}
+.historias_impactam .swiper-slide .conteudo{
+    background: var(--neutral-purple-transparency);
+}
+.historias_impactam .swiper-slide .conteudo#first{
+    background: var(--neutral-dark-purple);
+}
+.historias_impactam .swiper-slide .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 48px 24px;
+    color: var(--neutral-white);
+    border-radius: 16px;
+    line-height: 19.5px;
+    width: 260px;
+    height: 370px;
+}
+.historias_impactam .swiper-slide .conteudo p.quote{
+    height: 168px;
+}
+.historias_impactam .swiper-slide .conteudo span{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+.conteudo .nome p:first-child{
+    font-size: 18px;
+    color: var(--neutral-white);
+}
+.conteudo .nome p:last-child{
+    font-size: 14px;
+    color: var(--neutral-grey-dark);
+}
+
+.veja-mais-historia{
+    display: flex;
+    align-items: center;
+    color: var(--neutral-pure-white);
+    font-family: var(--font-family-content);
+    gap: .8rem;
+    align-self: flex-end;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 6.8rem;
+    cursor: pointer;
+}
+.veja-mais-historia:hover{
+    color: var(--secondary);
+    font-weight: 600;
+}
