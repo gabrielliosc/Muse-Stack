@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>MuseStack</title>
 </head>
 <body>
@@ -87,6 +89,122 @@
             </div>
             
         </section>
+        <section class="lideranca">
+            <div class="lideranca__cabecalho">
+                <h2>Mulheres <span>históricas</span></h2>
+                <span class="border"></span>
+            </div>    
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <input type="checkbox" id="ada-lovelace" />        
+                        <label class="flip-container" for="ada-lovelace" >
+                            <div class="flipper">
+                                <div class="front ada">
+                                    <span class="historia">Ver história</span>
+                                    <span class="nome">Ada Lovelace</span>
+                                </div>
+                                <div class="back">
+                                    <span>
+                                        A britânica <strong>Ada Lovelace</strong> foi a primeira programadora da história. Ela criou o primeiro algoritmo capaz de ser processado por uma máquina.
+                                    </span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <input type="checkbox" id="mary" />        
+                        <label class="flip-container" for="mary" >
+                            <div class="flipper">
+                                <div class="front mary">
+                                    <span class="historia">Ver história</span>
+                                    <span class="nome">Mary Kenneth Keller</span>
+                                </div>
+                                <div class="back">
+                                    <span>
+                                        <strong>Mary Kenneth Keller</strong> foi uma freira e também a primeira mulher a conquistar um doutorado em Ciências da Computação. Ela participou da criação da linguagem de programação <strong>BASIC</strong>.
+                                    </span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <input type="checkbox" id="grace" />        
+                        <label class="flip-container" for="grace" >
+                            <div class="flipper">
+                                <div class="front grace">
+                                    <span class="historia">Ver história</span>
+                                    <span class="nome">Grace Hopper </span>
+                                </div>
+                                <div class="back">
+                                    <span>
+                                        <strong>Hopper</strong> é a fundadora do termo "bug”. Ao tentar encontrar a origem de um problema em seu computador, descobriu um inseto morto dentro da máquina. Ela também atuou como analista de sistemas da Marinha dos Estados Unidos, e desenvolveu a base para a Common Business Oriented Language.
+                                    </span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <input type="checkbox" id="carol" />        
+                        <label class="flip-container" for="carol" >
+                            <div class="flipper">
+                                <div class="front carol">
+                                    <span class="historia">Ver história</span>
+                                    <span class="nome">Carol Shaw </span>
+                                </div>
+                                <div class="back">
+                                    <span>
+                                        <strong>Carol Shaw</strong> foi a primeira mulher a desbravar o universo dos games, na década de 70. 
+                                        Quando trabalhava na <strong> Atari</strong>, ela lançou comercialmente o primeiro jogo criado por uma mulher, o <strong>3-D Tic-Tac-Toe</strong>, que tinha como base o tradicional jogo da velha.
+                                    </span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <input type="checkbox" id="hedy" />        
+                        <label class="flip-container" for="hedy" >
+                            <div class="flipper">
+                                <div class="front hedy">
+                                    <span class="historia">Ver história</span>
+                                    <span class="nome">Hedy Lamarr</span>
+                                </div>
+                                <div class="back">
+                                    <span>
+                                        <strong>Hedy Lamarr</strong> foi uma atriz e inventora austríaca que junto ao compositor e inventor George Antheil, criou um aparelho de interferência em rádio para despistar radares nazistas, durante a Segunda Guerra Mundial. Graças à isso, hoje temos smartphones conectados ao Wi-Fi.
+                                    </span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="veja-mais"> 
+                <span>Veja mais</span>
+                <img src="./assets/img/seta-direita.svg" alt="" class="seta">
+            </div>
+        </section>
     </main>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: -200, //To do - Como funciona o space
+        freeMode: true,
+        autoHeight: true,
+        navigation: {
+            nextEl: ".veja-mais",
+            } 
+        });
+    </script>
 </body>
 </html>
