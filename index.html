@@ -189,6 +189,92 @@
                 <img src="./assets/img/seta-direita.svg" alt="" class="seta">
             </div>
         </section>
+        <section class="historias_impactam">
+            <h2>Histórias que <span>impactam</span></h2>
+            <div class="swiper mySwiperHistoria">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="conteudo" id="first">
+                            <img src="./assets/img/aspas.svg" alt="">
+                            <p class="quote">
+                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu
+                            </p>
+                            <span>
+                                <img src="./assets/img/image.svg" alt="">
+                                <div class="nome">
+                                    <p>Esther Howard</p> 
+                                    <p>Microsoft</p>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="conteudo">
+                            <img src="./assets/img/aspas.svg" alt="">
+                            <p class="quote">
+                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu
+                            </p>
+                            <span>
+                                <img src="./assets/img/image.svg" alt="">
+                                <div class="nome">
+                                    <p>Esther Howard</p> 
+                                    <p>Microsoft</p>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="conteudo">
+                            <img src="./assets/img/aspas.svg" alt="">
+                            <p class="quote">
+                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu
+                            </p>
+                            <span>
+                                <img src="./assets/img/image.svg" alt="">
+                                <div class="nome">
+                                    <p>Esther Howard</p> 
+                                    <p>Microsoft</p>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="conteudo">
+                            <img src="./assets/img/aspas.svg" alt="">
+                            <p class="quote">
+                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu
+                            </p>
+                            <span>
+                                <img src="./assets/img/image.svg" alt="">
+                                <div class="nome">
+                                    <p>Esther Howard</p> 
+                                    <p>Microsoft</p>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="conteudo">
+                            <img src="./assets/img/aspas.svg" alt="">
+                            <p class="quote">
+                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu
+                            </p>
+                            <span>
+                                <img src="./assets/img/image.svg" alt="">
+                                <div class="nome">
+                                    <p>Esther Howard</p> 
+                                    <p>Microsoft</p>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="veja-mais-historia"> 
+                <span>Veja mais</span>
+                <img src="./assets/img/seta-direita-branca.svg" alt="" class="seta">
+            </div>
+        </section>
     </main>
 
     <!-- Swiper JS -->
@@ -197,14 +283,25 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: -200, //To do - Como funciona o space
-        freeMode: true,
-        autoHeight: true,
-        navigation: {
-            nextEl: ".veja-mais",
-            } 
+            slidesPerView: 3,
+            spaceBetween: -200, //To do - Como funciona o space
+            freeMode: true,
+            autoHeight: true,
+            navigation: {
+                nextEl: ".veja-mais",
+                } 
         });
+
+        var swiper_historia = new Swiper(".mySwiperHistoria", {
+            slidesPerView: 4,
+            spaceBetween: -140, //To do - Como funciona o space
+            freeMode: true,
+            autoHeight: true,
+            navigation: {
+                nextEl: ".veja-mais-historia",
+                } 
+        });
+        
     </script>
 </body>
 </html>
