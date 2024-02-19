@@ -3,7 +3,7 @@
     background-image: url(../img/lideranca.png);
     min-height: 40rem;
     padding-left: 6.8rem;
-    flex-direction: column
+    flex-direction: column;
 }
 .lideranca h2{
     font-size: 3rem;
