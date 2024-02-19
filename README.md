@@ -86,8 +86,8 @@ Will be listed here the finished protoype demo | Será inserido aqui uma demo do
 - [x] Women in tech | Mulheres na tecnologia
 - [x] Tech fields | Áreas de atuação
 - [x] Historical women | Mulheres históricas
-- [ ] Open letter | Carta aberta
-- [ ] Our team | Nosso time
+- [x] Open letter | Carta aberta
+- [x] Our team | Nosso time
 - [ ] Footer
 - [ ] Deploy website | Publicar website
 
@@ -128,8 +128,6 @@ Sara Souza - [Github](https://github.com/sarasza) | [Linkedin](https://www.linke
 Jessica Bonifácio - [Github](https://github.com/euJess) | [Linkedin](https://www.linkedin.com/in/jessicabonif%C3%A1cio)
 <br/>
 Hosana Tavares - [Github](https://github.com/hosanatavares) | [Linkedin](https://www.linkedin.com/in/hosana-tavares-dev) | [Instagram](https://www.instagram.com/crvgsol?igsh=MXVmZWRqdWEyeWJybw%3D%3D&utm_source=qr)
-<br/>
-Gabrielle Fernandes - [Github](https://github.com/gabriellef1) | [Linkedin](https://www.linkedin.com/in/gabriellefernandes7/)
 <p>Project Link | Link do Projeto: https://github.com/gabrielliosc/Muse-Stack</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
