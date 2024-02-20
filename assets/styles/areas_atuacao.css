@@ -128,3 +128,9 @@ section.areas_atuacao {
     border-radius: 28px;
     padding: .5rem 1rem;
 }
+.areas_atuacao .botao:hover{
+    font-size: 14px;
+    color: var(--neutral-white);
+    background-color: var(--neutral-dark);
+    cursor: pointer;
+}
