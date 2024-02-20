@@ -1,0 +1,82 @@
+.comunidade{
+    background: var(--gradient-comunidade);
+    color: var(--neutral-white);
+    font-family: var(--font-family-content);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 800px;
+    gap: 55px;
+    min-height: 40rem;
+    padding-left: 6.8rem;
+    justify-content: center;
+    align-items: center;
+}
+.comunidade h2{
+    font-size: 3rem;
+    font-family: var(--font-family-title);
+    line-height: 3.5rem;
+    color: var(--neutral-white);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-width: 35rem;
+    z-index: 3;
+}
+.comunidade h2 span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--neutral-white);
+}
+.comunidade .logo{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family-title);
+    font-size: 1.6rem;
+    gap: .8rem;
+    color: var(--neutral-white);
+    padding: 8px 0px;
+    padding-right: 24px;
+    border: 1px solid var(--neutral-pure-white);
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    margin-right: 24px;
+    z-index: 3;
+}
+.comunidade .botao{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-family-title);
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--neutral-dark);
+    background-color: var(--neutral-white);
+    border-radius: 28px;
+    padding: .5rem 1rem;
+    z-index: 3;
+    cursor: pointer;
+}
+.comunidade .botao:hover{
+    font-size: 14px;
+    color: var(--neutral-white);
+    background-color: var(--neutral-dark);
+    cursor: pointer;
+}
+.comunidade .comunidade__botao{
+    display: flex;
+    align-items: center;
+    
+}
+.comunidade img.ellipse {
+    position: absolute;
+    top: -400px;
+    transform: scale(1.2);
+    opacity: 0.2;
+}
+.comunidade img.avatars {
+    position: absolute;
+    top: 150px;
+    transform: scale(1.2);
+    z-index: 2;
+}
