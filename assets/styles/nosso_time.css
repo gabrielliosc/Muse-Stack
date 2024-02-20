@@ -122,6 +122,7 @@
     margin-bottom: 1.5rem;
     margin-right: 6.8rem;
     cursor: pointer;
+    z-index: 2;
 }
 .veja-mais-time:hover{
     color: var(--secondary);
