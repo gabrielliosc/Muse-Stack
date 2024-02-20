@@ -6,6 +6,8 @@
 @import './assets/styles/historias_impactam.css';
 @import './assets/styles/carta_aberta.css';
 @import './assets/styles/nosso_time.css';
+@import './assets/styles/comunidade.css';
+@import './assets/styles/footer.css';
 
 
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
@@ -14,7 +16,18 @@
 * {
     box-sizing: border-box;
 }
+html,body{
+    scroll-behavior: smooth;
+}
+main, header{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background-color: var(--neutral-white); */
+}
 
+/* body{
+    background: var(--neutral-white);
+} */
 
 :root {
     --neutral-white: #ECEDEE;
@@ -38,7 +51,9 @@
     --gradient-black-180: linear-gradient(180deg, #00000026 0%, #00000000 100%); /*to do: Ver opacidade do gradiente*/
     --gradient-black-20: linear-gradient(20deg, #ffffff14 0%, #00000000 100%);
 
-    --gradient-comunidade: linear-gradient(180deg, #97003B 0%,var(--neutral-dark) 50%, #3300BB 100%);
+    --gradient-comunidade: linear-gradient(270deg, #97003B 0%,var(--neutral-dark)  50%, #3300BB 100%);
+
+    --gradient-overlay: linear-gradient(270deg, #97003B33 0%,#1C1D1E33 50%, #3300BB33 100%);
 
     --font-family-title: 'Dela Gothic One', sans-serif;
     --font-family-content:  'Montserrat', sans-serif;
