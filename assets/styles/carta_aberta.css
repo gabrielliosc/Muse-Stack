@@ -1,7 +1,8 @@
 .carta_aberta .carta_aberta__logo{
     position: relative;
-    top: 9rem;
-    left: 50rem;
+    z-index: 1;
+    top: 15vh;
+    right: -63vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,12 +20,14 @@
     margin: 6rem;
     gap: 4rem;
     background-color: var(--neutral-grey-light);
+    font-family: var(--font-family-content);
     padding: 6.4rem;
     border: 10px solid;
     border-image-slice: 0 1 1 0;
     border-image-source: var(--gradient);
     border-left: none;
     border-top: none;
+    position: relative;
 }
 .carta_aberta h2{
     font-size: 3rem;
@@ -48,7 +51,7 @@
     margin-bottom: 1.5rem;
 }
 .carta_aberta .carta_aberta__imagem{
-    position: relative;
-    bottom: 45rem;
-    left: 3rem;
+    position: absolute;
+    bottom: 18vh;
+    left: -4vw;
 }
