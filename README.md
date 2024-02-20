@@ -88,8 +88,9 @@ Will be listed here the finished protoype demo | Será inserido aqui uma demo do
 - [x] Historical women | Mulheres históricas
 - [x] Open letter | Carta aberta
 - [x] Our team | Nosso time
-- [ ] Footer
-- [ ] Deploy website | Publicar website
+- [x] Footer
+- [x] Deploy website | Publicar website
+- [ ] Responsiveness | Responsividade
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
